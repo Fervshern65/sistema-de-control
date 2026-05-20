@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+# 🔴 Sistema de Control Fastech - Poké-Terminal v1.0
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+¡Bienvenido al Centro de Mando de Inventario de Fastech! Este es un sistema de gestión de productos automatizado, desarrollado con un diseño personalizado inspirado en la estética oscura de las interfaces de combate y tecnología de **Pokémon** (Gamer/Master System).
 
-## Available Scripts
+## 🚀 Características del Proyecto
 
-In the project directory, you can run:
+- **Estética Custom Dark:** Interfaz de usuario diseñada desde cero en tonos negro carbón, gris acero y detalles en rojo Pokébola.
+- **Sprites Animados:** Presencia de Pokémon icónicos en tiempo real (Charizard y Pikachu) custodiando la terminal.
+- **Control de Stock Dinámico:** Alertas visuales inteligentes que cambian a color rojo si el inventario de un objeto baja de las 5 unidades.
+- **Operaciones CRUD Completas:**
+  - 📥 **Captura de Datos:** Registro rápido de nuevos objetos, precios (PD) y stock.
+  - <img width="1301" height="691" alt="Captura desde 2026-05-20 08-45-54" src="https://github.com/user-attachments/assets/17bd313e-abd4-47d7-83ff-255d2fd36129" />
 
-### `npm start`
+  - 📋 **Visualización en Pokédex:** Tabla organizada con IDs únicos y nombres formateados automáticamente en mayúsculas.
+  - <img width="1301" height="691" alt="Captura desde 2026-05-20 08-45-41" src="https://github.com/user-attachments/assets/bcb491c5-d178-4646-88fc-6edc189a67ec" />
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  - 🔓 **Liberación de Objetos:** Función para eliminar registros del inventario con confirmación interactiva.
+<img width="1301" height="691" alt="Captura desde 2026-05-20 08-47-41" src="https://github.com/user-attachments/assets/df385730-3383-4a17-ae9d-8c2e90e51938" />
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🛠️ Tecnologías Utilizadas
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+El proyecto fue construido utilizando el Stack moderno de desarrollo web:
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* **Frontend:** [React.js](https://react.dev/) (Hooks: `useState`, `useEffect`)
+* **Estilos:** CSS-in-JS (Objetos de estilo dinámicos y limpios)
+* **Backend:** Node.js / Express (API REST para la persistencia del inventario)
+* **Base de Datos:** JSON / Estructura relacional de productos
+* **Control de Versiones:** Git & GitHub
